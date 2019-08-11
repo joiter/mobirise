@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "4.10.7"
   },
   "pages": {
@@ -72,6 +72,40 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"16\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>*Disclaimer: O profissional da área deve ser consultado!</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "ryQVuV0I1R",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-n"
         },
         {
           "alias": false,
@@ -120,7 +154,7 @@
             }
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>A Busca Pelo Prazer&nbsp;</b>- O que ninguém te conta sobre isto que é tão importante em sua vida! As pessoas atualmente se fecham e se trancam dentro de si mesmas. Não conseguem sentir prazer, mesmo quando desejam muito.&nbsp;</li>\n                    <li><b>Auto-Estima de Verdade</b> - Saiba porque é que por mais que as pessoas tentem estar de bem consigo mesmas, não conseguem! Mesmo as pessoas bonitas, ricas e bem sucedidas são infelizes e insatisfeitas com suas vidas.</li>\n                    <li><b>Contato Com Sua Natureza Interior</b> - Conheça a inteligência que há dentro de você, que cria todos os seus sentimentos e que influencia tanto os acontecimentos em sua vida. Tudo o que você sente, vem dela, sua Natureza!</li><li><b>O Sexo, Como Ninguém Conhece</b> - Este livro trata deste tema com um ponto de vista completamente inovador, com informações e revelações que você não irá encontrar em nenhum outro livro de autoconhecimento.&nbsp;</li><li><b>O Amor, Verdadeiro</b> - Uma das maiores fontes de problemas em nossa sociedade é o não conhecimento do que o amor é de fato. Saber sua origem, função e objetivo é o que te fará experimentá-lo em plenitude.</li><li><b>A Construção da Identidade Humana</b> - Você saberá como é construída sua identidade dentro de você. Saberá como influenciar de forma positiva para mudá-la e estar de bem consigo mesmo. É um conhecimento valiosíssimo!</li><li><b>Saiba quem são os seus inimigos</b> - Neste livro, eu abordo aquilo que ninguém tem coragem de falar: que nosso espaço aqui neste mundinho é disputado e desejado por aqueles que querem a nossa destruição. Sim, acredite!</li><li><b>Descubra quais são as armas que usam contra você</b> - É justamente o que faz com que as pessoas acabem levando uma vida medíocre e fracassada. Aprenda a se defender disso e construir uma vida maravilhosa, realizada e feliz. </li><li><b>Conheça o Modelo Perfeito de Família</b> - Que é o que nos leva a viver conforme nossa Natureza. Só através deste modelo de família, podemos usufruir de todas as capacidades humanas, que todos temos dentro de nós!</li><li><b>De Volta à Nossas Origens</b> - Neste livro explico que todas as pessoas estão doentes, fracas e com seus instintos distorcidos. Mostro como curarem-se e voltarem ao que são de verdade em sua origem, um ser humano completo!</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>A Busca Pelo Prazer&nbsp;</b>- O que ninguém te conta sobre isto que é tão importante em sua vida! As pessoas atualmente se fecham e se trancam dentro de si mesmas. Não conseguem sentir prazer, mesmo quando desejam muito.&nbsp;</li>\n                    <li><b>Auto-Estima de Verdade</b> - Saiba porque é que por mais que as pessoas tentem estar de bem consigo mesmas, não conseguem! Mesmo as pessoas bonitas, ricas e bem sucedidas são infelizes e insatisfeitas com suas vidas.</li>\n                    <li><b>Contato Com Sua Natureza Interior</b> - Conheça a inteligência que há dentro de você, que cria todos os seus sentimentos e que influencia tanto os acontecimentos em sua vida. Tudo o que você sente, vem dela, sua Natureza!</li><li><b>O Sexo, Como Ninguém Conhece</b> - Este livro trata deste tema com um ponto de vista completamente inovador, com informações e revelações que você não irá encontrar em nenhum outro livro de autoconhecimento.&nbsp;</li><li><b>O Amor, Verdadeiro</b> - Uma das maiores fontes de problemas em nossa sociedade é o não conhecimento do que o amor é de fato. Saber sua origem, função e objetivo é o que te fará experimentá-lo em plenitude.</li><li><b>A Construção da Identidade Humana</b> - Você saberá como é construída sua identidade dentro de você. Saberá como influenciar de forma positiva para mudá-la e estar de bem consigo mesmo. É um conhecimento valiosíssimo!</li><li><b>Saiba quem são os seus inimigos</b> - Neste livro, eu abordo aquilo que ninguém tem coragem de falar: que nosso espaço aqui neste mundinho é disputado e desejado por aqueles que querem a nossa destruição. Sim, acredite!</li><li><b>Descubra quais são as armas que usam contra você</b> - É justamente o que faz com que as pessoas acabem levando uma vida medíocre e fracassada. Aprenda a se defender disso e construir uma vida maravilhosa, realizada e feliz. </li><li><b>Conheça o Modelo Perfeito de Família</b> - Que é o que nos leva a viver conforme nossa Natureza. Só através deste modelo de família, podemos usufruir de todas as capacidades humanas, que todos temos dentro de nós!</li><li><b>De Volta à Nossas Origens</b> - Neste livro explico que todas as pessoas estão doentes, fracas e com seus instintos distorcidos. Mostro como curarem-se e voltarem ao que são de verdade em sua origem, um ser humano completo!</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rytf75TSwa",
           "_protectedParams": [],
           "_global": false,
