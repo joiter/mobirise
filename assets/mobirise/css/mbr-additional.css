@@ -1422,29 +1422,6 @@ body {
   font-style: italic;
   letter-spacing: 1rem;
 }
-.cid-ryQVuV0I1R {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-ryQVuV0I1R .line {
-  background-color: #149dcc;
-  color: #149dcc;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-ryQVuV0I1R .section-text {
-  padding: 2rem 0;
-}
-.cid-ryQVuV0I1R .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-ryQVuV0I1R .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-rytf75TSwa {
   padding-top: 15px;
   padding-bottom: 30px;
